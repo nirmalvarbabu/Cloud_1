@@ -1,0 +1,23 @@
+def add_numbers(x, y):
+  """Adds two numbers together.
+
+  Args:
+    x: The first number.
+    y: The second number.
+
+  Returns:
+    The sum of x and y.
+  """
+
+  sum = x + y
+  return sum
+
+# Get input from the user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Add the numbers
+result = add_numbers(num1, num2)
+
+# Print the result
+print("Sum:", result)
